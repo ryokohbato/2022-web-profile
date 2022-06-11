@@ -1,5 +1,7 @@
 # 2022-web-profile
 
+[Webサービス勉強会2022](https://github.com/kmc-jp/2022-web)
+
 ## 開発環境
 1. リポジトリをcloneし、`2022-web-profile` ディレクトリに入ります
 2. Dockerを使用しない場合はnpmまたはyarnを使用します。Dockerを使用する場合はComposeとmakeが必要です。

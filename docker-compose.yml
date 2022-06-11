@@ -1,0 +1,13 @@
+version: "3"
+services:
+  2022-web-profile:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: 2022-web-profile
+    ports:
+      - 9900:9900
+    volumes:
+      - 2022-web-profile__node_modules:/home/$USERNAME/2022-web-profile/node_modules
+volumes:
+  2022-web-profile__node_modules:
